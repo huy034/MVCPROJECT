@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MVCPROJECT\\MVCPROJECT\\MVCPROJECT.csproj": {}
+    "F:\\MVCPROJECT\\PhatTrienPhanMemQuanLi\\MVCPROJECT\\MVCPROJECT.csproj": {}
   },
   "projects": {
-    "F:\\MVCPROJECT\\MVCPROJECT\\MVCPROJECT.csproj": {
+    "F:\\MVCPROJECT\\PhatTrienPhanMemQuanLi\\MVCPROJECT\\MVCPROJECT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MVCPROJECT\\MVCPROJECT\\MVCPROJECT.csproj",
+        "projectUniqueName": "F:\\MVCPROJECT\\PhatTrienPhanMemQuanLi\\MVCPROJECT\\MVCPROJECT.csproj",
         "projectName": "MVCPROJECT",
-        "projectPath": "F:\\MVCPROJECT\\MVCPROJECT\\MVCPROJECT.csproj",
+        "projectPath": "F:\\MVCPROJECT\\PhatTrienPhanMemQuanLi\\MVCPROJECT\\MVCPROJECT.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "F:\\MVCPROJECT\\MVCPROJECT\\obj\\",
+        "outputPath": "F:\\MVCPROJECT\\PhatTrienPhanMemQuanLi\\MVCPROJECT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
