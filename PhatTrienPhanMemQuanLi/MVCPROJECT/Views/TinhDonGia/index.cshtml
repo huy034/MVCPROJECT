@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Tính Tiền Hóa Đơn";
+}
+
+<h2 class="mb-3">Tính Tiền Hóa Đơn</h2>
+
+<form asp-action="Index" method="post">
+    <div class="form-group mb-2">
+        <label for="ProductName">Tên sản phẩm:</label>
+        <input type="text" class="form-control" name="ProductName" required>
+    </div>
+
+    <div class="form-group mb-2">
+        <label for="Quantity">Số lượng:</label>
+        <input type="number" class="form-control" name="Quantity" required min="1">
+    </div>
+
+    <div class="form-group mb-2">
+        <label for="UnitPrice">Đơn giá:</label>
+        <input type="number" class="form-control" name="UnitPrice" required min="1" step="0.01">
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Tính Tiền</button>
+</form>
+<h1>@ViewBag.Message</h1>

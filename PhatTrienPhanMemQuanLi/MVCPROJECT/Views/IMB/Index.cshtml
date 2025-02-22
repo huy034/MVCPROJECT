@@ -1,13 +1,30 @@
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Tính Chỉ Số BMI";
 }
 
-<form asp-action="Index">
-  <label>Cân nặng</label>
-  <input type="number" name="=CanNang">
-  <label>Chiều cao</label>
-  <input type="number" name="ChieuCao">
-  <input type="submit" value="submit">
+<h2>Tính Chỉ Số BMI</h2>
+
+<form asp-action="Index" method="post">
+    <div class="form-group">
+        <label for="Weight">Cân nặng (kg):</label>
+        <input type="number" class="form-control" name="Weight" required>
+    </div>
+
+    <div class="form-group">
+        <label for="Height">Chiều cao (cm):</label>
+        <input type="number" class="form-control" name="Height" required>
+    </div>
+
+    <div class="form-group">
+        <label for="Gender">Giới tính:</label>
+        <select class="form-control" name="Gender">
+            <option value="">-- Chọn giới tính --</option>
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Tính BMI</button>
 </form>
 
 <h1>@ViewBag.Message</h1>
