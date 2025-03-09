@@ -56,12 +56,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVCPROJECT/PhatTrienPhanMemQuanLi/MVCPROJECT/Views/Person/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXGluZGV4LmNzaHRtbA==
+[F:/MVCPROJECT/PhatTrienPhanMemQuanLi/MVCPROJECT/Views/Person/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVCPROJECT/PhatTrienPhanMemQuanLi/MVCPROJECT/Views/Person/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXFVwZGF0ZS5jc2h0bWw=
+[F:/MVCPROJECT/PhatTrienPhanMemQuanLi/MVCPROJECT/Views/Person/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/MVCPROJECT/PhatTrienPhanMemQuanLi/MVCPROJECT/Views/Score/Index.cshtml]
