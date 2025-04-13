@@ -3,6 +3,7 @@ namespace MVCPROJECT.Models
 {
 public class DaiLy
 {
+    [Key]
     public string? MaDaiLy { get; set;}
     public string? MaHTPP { get; set;}
     public string? TenDaiLy { get; set;}

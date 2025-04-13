@@ -364,3 +364,17 @@ F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\runtimes\win-x8
 F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\obj\Debug\net9.0\MVCPROJECT.csproj.AssemblyReference.cache
 F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\obj\Debug\net9.0\MVCPROJECT.csproj.Up2Date
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\EPPlus.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\EPPlus.Interfaces.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\Microsoft.IO.RecyclableMemoryStream.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\System.Security.Cryptography.Xml.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\System.Text.Encoding.CodePages.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Text.Encoding.CodePages.dll
