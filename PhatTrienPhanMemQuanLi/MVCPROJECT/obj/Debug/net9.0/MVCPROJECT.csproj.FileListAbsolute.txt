@@ -452,3 +452,7 @@ F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\obj\Debug\net9.0\compressed\a3yg
 F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\MailKit.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\MimeKit.dll
+F:\MVCPROJECT\PhatTrienPhanMemQuanLi\MVCPROJECT\bin\Debug\net9.0\Bogus.dll

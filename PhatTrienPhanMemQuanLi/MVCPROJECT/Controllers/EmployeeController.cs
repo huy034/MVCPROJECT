@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,10 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MVCPROJECT.Data;
-using MVCPROJECT.Models;
+using MVCPROJECT.Models.Entities;
 
 namespace MVCPROJECT.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -19,12 +21,13 @@ namespace MVCPROJECT.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
         // GET: Employee
         public async Task<IActionResult> Index()
         {
             return View(await _context.Employee.ToListAsync());
         }
-
+        [Authorize]
         // GET: Employee/Details/5
         public async Task<IActionResult> Details(string id)
         {
@@ -42,7 +45,7 @@ namespace MVCPROJECT.Controllers
 
             return View(employee);
         }
-
+        [Authorize]
         // GET: Employee/Create
         public IActionResult Create()
         {
@@ -54,7 +57,7 @@ namespace MVCPROJECT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EmployeeId,Age,PersonId,FullName,Address")] Employee employee)
+        public async Task<IActionResult> Create([Bind("EmployeeId,FirstName,LastName,Address,DateOfBirth,Position,Email,HireDate,Age,PersonId,FullName")] Employee employee)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +89,7 @@ namespace MVCPROJECT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("EmployeeId,Age,PersonId,FullName,Address")] Employee employee)
+        public async Task<IActionResult> Edit(string id, [Bind("EmployeeId,FirstName,LastName,Address,DateOfBirth,Position,Email,HireDate,Age,PersonId,FullName")] Employee employee)
         {
             if (id != employee.PersonId)
             {

@@ -5,6 +5,7 @@ using MVCPROJECT.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using MVCPROJECT.Models.Process;
+using MVCPROJECT.Models.Entities;
 
 namespace MVCPROJECT.Controllers
 {

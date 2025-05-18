@@ -81,7 +81,7 @@ namespace MVCPROJECT.Migrations
                         .IsUnique()
                         .HasDatabaseName("UserNameIndex");
 
-                    b.ToTable("AspNetUsers", (string)null);
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("MVCPROJECT.Models.DaiLy", b =>
@@ -109,7 +109,34 @@ namespace MVCPROJECT.Migrations
                     b.ToTable("Daily");
                 });
 
-            modelBuilder.Entity("MVCPROJECT.Models.Person", b =>
+            modelBuilder.Entity("MVCPROJECT.Models.Entities.MemberUnit", b =>
+                {
+                    b.Property<int>("MemberUnitId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("WebsiteUrl")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("MemberUnitId");
+
+                    b.ToTable("MemberUnit");
+                });
+
+            modelBuilder.Entity("MVCPROJECT.Models.Entities.Person", b =>
                 {
                     b.Property<string>("PersonId")
                         .HasColumnType("TEXT");
@@ -157,7 +184,7 @@ namespace MVCPROJECT.Migrations
                         .IsUnique()
                         .HasDatabaseName("RoleNameIndex");
 
-                    b.ToTable("AspNetRoles", (string)null);
+                    b.ToTable("Roles", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -180,7 +207,7 @@ namespace MVCPROJECT.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("AspNetRoleClaims", (string)null);
+                    b.ToTable("RoleClaims", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -203,7 +230,7 @@ namespace MVCPROJECT.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("AspNetUserClaims", (string)null);
+                    b.ToTable("UserClaims", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
@@ -227,7 +254,7 @@ namespace MVCPROJECT.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("AspNetUserLogins", (string)null);
+                    b.ToTable("UserLogins", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
@@ -242,7 +269,7 @@ namespace MVCPROJECT.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("AspNetUserRoles", (string)null);
+                    b.ToTable("UserRoles", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -263,17 +290,39 @@ namespace MVCPROJECT.Migrations
 
                     b.HasKey("UserId", "LoginProvider", "Name");
 
-                    b.ToTable("AspNetUserTokens", (string)null);
+                    b.ToTable("UserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("MVCPROJECT.Models.Employee", b =>
+            modelBuilder.Entity("MVCPROJECT.Models.Entities.Employee", b =>
                 {
-                    b.HasBaseType("MVCPROJECT.Models.Person");
+                    b.HasBaseType("MVCPROJECT.Models.Entities.Person");
 
                     b.Property<int>("Age")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("EmployeeId")
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("HireDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Position")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.ToTable("Person");
